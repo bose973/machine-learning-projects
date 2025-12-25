@@ -71,12 +71,9 @@ Source: [Kaggle HR Dataset](https://www.kaggle.com/liujiaqi/hr-comma-sepcsv)
 2. Make sure python 3.12.1 is installed in your system
 3. Navigate to the project folder:
    cd machine-learning-projects/Employee_Turnover_Analytics
-4. Checkout to the virtual env:
-   source ML_ENV/bin/activate # Linux/macOS 
-   .\ML_ENV\Scripts\Activate.ps1 # Windows powershell
-5. (optional) If u want your own virtual env run these two commands step by step:
-   python -m venv ML_ENV
-   pip install -r ./machine-learning-projects/Employee_Turnover_Analytics/required_packages.txt
-6. Update the python interpretor of your IDE to ML_ENV
-7. Run the project-code file using jupyter editor in your IDE:
+4. (optional) If u want your own virtual env run these two commands step by step:
+   1)python -m venv ML_ENV
+   2)pip install -r ./machine-learning-projects/Employee_Turnover_Analytics/required_packages.txt
+5. Update the python interpretor of your IDE to ML_ENV
+6. Run the project-code file using jupyter editor in your IDE:
    analytics_model.ipynb
