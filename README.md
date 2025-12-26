@@ -73,7 +73,8 @@ Source: [Kaggle HR Dataset](https://www.kaggle.com/liujiaqi/hr-comma-sepcsv)
    cd machine-learning-projects/Employee_Turnover_Analytics
 4. Create the virtual env - run these two commands step by step:
    1)python -m venv ML_ENV
-   2)pip install -r ./machine-learning-projects/Employee_Turnover_Analytics/required_packages.txt
+   2).\ML_ENV\Scripts\Activate.ps1
+   3)pip install -r ./machine-learning-projects/Employee_Turnover_Analytics/required_packages.txt
 5. Update the python interpretor of your IDE to ML_ENV
 6. Run the project-code file using jupyter editor in your IDE:
    analytics_model.ipynb
